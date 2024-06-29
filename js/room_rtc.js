@@ -1,5 +1,4 @@
-const APP_ID = "YOUR-APP-ID"
-
+const APP_ID = "35537e2d343e4bde81d470dbc7c02912"
 let uid = sessionStorage.getItem('uid')
 if(!uid){
     uid = String(Math.floor(Math.random() * 10000))
